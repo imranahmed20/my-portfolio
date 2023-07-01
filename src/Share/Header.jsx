@@ -4,6 +4,7 @@ import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import logo from '../../src/assets/Image/logo.png'
 
 
 const Header = () => {
@@ -11,7 +12,7 @@ const Header = () => {
         <div>
             <Navbar expand="lg" className="bg-body-tertiary">
                 <Container>
-                    <Navbar.Brand href="#" className='fs-4 fw-semibold '>Imran Ahmed</Navbar.Brand>
+                    <Navbar.Brand href="#" className='fs-4 fw-semibold '> <img className='rounded-circle me-2' src={logo} alt="" />Imran Ahmed</Navbar.Brand>
                     <Navbar.Toggle aria-controls="navbarScroll" />
                     <Navbar.Collapse id="navbarScroll">
                         <Nav

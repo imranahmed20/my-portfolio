@@ -6,8 +6,8 @@ import { FaGithub, FaServer, FaExternalLinkAlt } from 'react-icons/fa';
 
 const Projects = () => {
     return (
-        <div className='mt-5 container'>
-            <h1 className='text-center mb-5'>My Projects</h1>
+        <div className='banner container'>
+            <h1 className='text-center mb-5 fw-bold'>My Projects</h1>
             <div className="row row-cols-1 row-cols-md-3 g-4">
                 <div className="col">
                     <div className="card">

@@ -9,12 +9,13 @@ import img7 from '../../assets/Image/img-7.jfif'
 import img8 from '../../assets/Image/img-8.png'
 import img9 from '../../assets/Image/img-9.png'
 import img10 from '../../assets/Image/img-10.png'
+import '../../style/margin.css'
 
 
 const Skill = () => {
     return (
-        <div className='container'>
-            <h1 className='text-center'>My Skill</h1>
+        <div className='banner container'>
+            <h1 className='text-center mb-5 fw-bold fs-1'>My Skill</h1>
 
             <div className="row row-cols-1 row-cols-md-5 g-4">
                 <div className="col">

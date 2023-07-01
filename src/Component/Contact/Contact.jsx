@@ -3,8 +3,8 @@ import { FaFacebook, FaGithub, FaLinkedin, FaLocationArrow, FaMailBulk, FaPhoneS
 
 const Contact = () => {
     return (
-        <div className='mt-5 container'>
-            <h1 className='text-center mb-5'>Contact Me</h1>
+        <div className='banner container'>
+            <h1 className='text-center mb-5 fw-bold'>Contact Me</h1>
             <div className='row row-cols-1 row-cols-md-2 g-4'>
                 <div className='col'>
                     <h2 className='fw-bold mb-4'>Contact Info :</h2>
