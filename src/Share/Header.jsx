@@ -8,10 +8,10 @@ import Navbar from 'react-bootstrap/Navbar';
 
 const Header = () => {
     return (
-        <div className='container'>
+        <div>
             <Navbar expand="lg" className="bg-body-tertiary">
-                <Container fluid>
-                    <Navbar.Brand href="#" className='fs-4 fw-semibold'>Imran Ahmed</Navbar.Brand>
+                <Container>
+                    <Navbar.Brand href="#" className='fs-4 fw-semibold '>Imran Ahmed</Navbar.Brand>
                     <Navbar.Toggle aria-controls="navbarScroll" />
                     <Navbar.Collapse id="navbarScroll">
                         <Nav
@@ -19,7 +19,7 @@ const Header = () => {
                             style={{ maxHeight: '100px' }}
                             navbarScroll
                         >
-                            <Nav.Link href="#action1">Home</Nav.Link>
+                            <Nav.Link href="#My Skill">Home</Nav.Link>
                             <Nav.Link href="#action2">Link</Nav.Link>
                         </Nav>
 

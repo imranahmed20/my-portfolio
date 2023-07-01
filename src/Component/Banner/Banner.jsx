@@ -4,7 +4,7 @@ import Button from 'react-bootstrap/Button';
 
 const Banner = () => {
     return (
-        <div className='d-flex justify-content-between align-items-center mt-5'>
+        <div className='d-md-flex justify-content-between align-items-center mt-5 container'>
             <div>
                 <h1>Hi! I'm <br /><span>Imran Ahmed</span></h1>
                 <h1>Full Stack Developer</h1>
@@ -12,8 +12,8 @@ const Banner = () => {
                 <Button className='me-3' variant="outline-primary">Primary</Button>
                 <Button variant="outline-primary">Primary</Button>
             </div>
-            <div className='ms-5'>
-                <img className='rounded-circle' style={{ width: 500, height: 450 }} src={img} alt="" />
+            <div className='ms-3'>
+                <img className='rounded-circle ' style={{ width: 500, height: 450 }} src={img} alt="" />
             </div>
         </div>
     );
