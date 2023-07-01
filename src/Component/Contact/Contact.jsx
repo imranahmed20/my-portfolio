@@ -3,7 +3,8 @@ import { FaFacebook, FaGithub, FaLinkedin, FaLocationArrow, FaMailBulk, FaPhoneS
 
 const Contact = () => {
     return (
-        <div className='banner container'>
+        <div className='banner container' id="contact" data-aos="fade-up"
+            data-aos-duration="1500">
             <h1 className='text-center mb-5 fw-bold'>Contact Me</h1>
             <div className='row row-cols-1 row-cols-md-2 g-4'>
                 <div className='col'>

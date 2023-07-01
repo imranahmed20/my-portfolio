@@ -6,11 +6,11 @@ import { FaGithub, FaServer, FaExternalLinkAlt } from 'react-icons/fa';
 
 const Projects = () => {
     return (
-        <div className='banner container'>
+        <div className='banner container' id="projects">
             <h1 className='text-center mb-5 fw-bold'>My Projects</h1>
             <div className="row row-cols-1 row-cols-md-3 g-4">
-                <div className="col">
-                    <div className="card">
+                <div className="col" >
+                    <div className="card" data-aos="flip-left">
                         <img src={project1} className="card-img-top p-2" alt="..." />
                         <div className="card-body">
                             <h4 className="card-title">Chef Recipe</h4>
@@ -27,39 +27,40 @@ const Projects = () => {
                                         View Details
                                     </button>
 
-                                    {/* <!-- Modal --> */}
-                                    <div className="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                        <div className="modal-dialog">
-                                            <div className="modal-content">
-                                                <div className="modal-header">
-                                                    <h1 className="modal-title fs-5" id="exampleModalLabel">Chef Recipe</h1>
-                                                    <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                                </div>
-                                                <div className="modal-body">
-                                                    <h4><span className='fw-bold'>Project Name:</span>  Chef Recipe</h4>
-                                                    <p className='fs-5'><span className='fw-bold fs-5'>Technologies used:</span> React js, Tailwind CSS, DaisyUI, Firebase, pdf,React-lazy-load, React Carousel.</p>
-                                                    <h5>Features:</h5>
-                                                    <ul>
-                                                        <li>A new user account can be created. Can login and logout.</li>
-                                                        <li>All Chef and their short details in a card and All Recipe Page is a protected Page.</li>
-                                                        <li>Many recipe and chef here</li>
-                                                    </ul>
-                                                </div>
-                                                <div className="modal-footer">
-                                                    <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                                    <button type="button" className="btn btn-primary">Save changes</button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
                                 </div>
+
                             </div>
                         </div>
 
                     </div>
+                    {/* <!-- Modal --> */}
+                    <div className="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div className="modal-dialog">
+                            <div className="modal-content">
+                                <div className="modal-header">
+                                    <h1 className="modal-title fs-5" id="exampleModalLabel">Chef Recipe</h1>
+                                    <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div className="modal-body">
+                                    <h4><span className='fw-bold'>Project Name:</span>  Chef Recipe</h4>
+                                    <p className='fs-5'><span className='fw-bold fs-5'>Technologies used:</span> React js, Tailwind CSS, DaisyUI, Firebase, pdf,React-lazy-load, React Carousel.</p>
+                                    <h5>Features:</h5>
+                                    <ul>
+                                        <li>A new user account can be created. Can login and logout.</li>
+                                        <li>All Chef and their short details in a card and All Recipe Page is a protected Page.</li>
+                                        <li>Many recipe and chef here</li>
+                                    </ul>
+                                </div>
+                                <div className="modal-footer">
+                                    <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    <button type="button" className="btn btn-primary">Save changes</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div className="col">
-                    <div className="card">
+                    <div className="card" data-aos="flip-left">
                         <img src={project2} className="card-img-top p-2" alt="..." />
                         <div className="card-body">
                             <h4 className="card-title">Sports Academies</h4>
@@ -75,39 +76,38 @@ const Projects = () => {
                                     <button type="button" className="btn btn-success fw-semibold fs-6" data-bs-toggle="modal" data-bs-target="#exampleModal1">
                                         View Details
                                     </button>
-
-                                    {/* <!-- Modal --> */}
-                                    <div className="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                        <div className="modal-dialog">
-                                            <div className="modal-content">
-                                                <div className="modal-header">
-                                                    <h1 className="modal-title fs-5" id="exampleModalLabel">Sports Academies</h1>
-                                                    <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                                </div>
-                                                <div className="modal-body">
-                                                    <h4><span className='fw-bold'>Project Name:</span> Sports Academies</h4>
-                                                    <p className='fs-5'><span className='fw-bold fs-5'>Technologies used:</span> React js,Express js, Node js, Mongodb, Tailwind CSS, DaisyUI, Firebase, Dark Mode Toggle, json web token, Axios secure, custom hooks, React reveal animation.</p>
-                                                    <h5>Features:</h5>
-                                                    <ul>
-                                                        <li>Where students can create an account and select their own classes.</li>
-                                                        <li>Students can enroll in their selected classes by making a payment.</li>
-                                                        <li>Admin can create an instructor here. Then instructors can add their classes.</li>
-                                                    </ul>
-                                                </div>
-                                                <div className="modal-footer">
-                                                    <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                                    <button type="button" className="btn btn-primary">Save changes</button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {/* <!-- Modal --> */}
+                    <div className="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div className="modal-dialog">
+                            <div className="modal-content">
+                                <div className="modal-header">
+                                    <h1 className="modal-title fs-5" id="exampleModalLabel">Sports Academies</h1>
+                                    <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div className="modal-body">
+                                    <h4><span className='fw-bold'>Project Name:</span> Sports Academies</h4>
+                                    <p className='fs-5'><span className='fw-bold fs-5'>Technologies used:</span> React js,Express js, Node js, Mongodb, Tailwind CSS, DaisyUI, Firebase, Dark Mode Toggle, json web token, Axios secure, custom hooks, React reveal animation.</p>
+                                    <h5>Features:</h5>
+                                    <ul>
+                                        <li>Where students can create an account and select their own classes.</li>
+                                        <li>Students can enroll in their selected classes by making a payment.</li>
+                                        <li>Admin can create an instructor here. Then instructors can add their classes.</li>
+                                    </ul>
+                                </div>
+                                <div className="modal-footer">
+                                    <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    <button type="button" className="btn btn-primary">Save changes</button>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div className="col">
-                    <div className="card">
+                    <div className="card" data-aos="flip-left">
                         <img src={project3} className="card-img-top p-2" alt="..." />
                         <div className="card-body">
                             <h4 className="card-title">Doll Marketplace</h4>
@@ -124,31 +124,32 @@ const Projects = () => {
                                         View Details
                                     </button>
 
-                                    {/* <!-- Modal --> */}
-                                    <div className="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                        <div className="modal-dialog">
-                                            <div className="modal-content">
-                                                <div className="modal-header">
-                                                    <h1 className="modal-title fs-5" id="exampleModalLabel">Doll Marketplace</h1>
-                                                    <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                                </div>
-                                                <div className="modal-body">
-                                                    <h4><span className='fw-bold'>Project Name:</span>  Doll Marketplace</h4>
-                                                    <p className='fs-5'><span className='fw-bold fs-5'>Technologies used:</span> React js, Tailwind CSS, DaisyUI, Firebase, AOS Animation, Express js, Node js.</p>
-                                                    <h5>Features:</h5>
-                                                    <ul>
-                                                        <li>Firebase Authentication for login and logout system.</li>
-                                                        <li>Toy Category system with react tab.</li>
-                                                        <li>Add a Toy page user can add to toy and My Toy page user can see her/his added toy.</li>
-                                                    </ul>
-                                                </div>
-                                                <div className="modal-footer">
-                                                    <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                                    <button type="button" className="btn btn-primary">Save changes</button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {/* <!-- Modal --> */}
+                    <div className="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div className="modal-dialog">
+                            <div className="modal-content">
+                                <div className="modal-header">
+                                    <h1 className="modal-title fs-5" id="exampleModalLabel">Doll Marketplace</h1>
+                                    <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div className="modal-body">
+                                    <h4><span className='fw-bold'>Project Name:</span>  Doll Marketplace</h4>
+                                    <p className='fs-5'><span className='fw-bold fs-5'>Technologies used:</span> React js, Tailwind CSS, DaisyUI, Firebase, AOS Animation, Express js, Node js.</p>
+                                    <h5>Features:</h5>
+                                    <ul>
+                                        <li>Firebase Authentication for login and logout system.</li>
+                                        <li>Toy Category system with react tab.</li>
+                                        <li>Add a Toy page user can add to toy and My Toy page user can see her/his added toy.</li>
+                                    </ul>
+                                </div>
+                                <div className="modal-footer">
+                                    <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    <button type="button" className="btn btn-primary">Save changes</button>
                                 </div>
                             </div>
                         </div>

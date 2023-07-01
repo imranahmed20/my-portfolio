@@ -14,11 +14,11 @@ import '../../style/margin.css'
 
 const Skill = () => {
     return (
-        <div className='banner container'>
+        <div className='banner container' id="skill">
             <h1 className='text-center mb-5 fw-bold fs-1'>My Skill</h1>
 
             <div className="row row-cols-1 row-cols-md-5 g-4">
-                <div className="col">
+                <div className="col" data-aos="zoom-in">
                     <div className="card">
                         <img src={img1} className="card-img-top p-2" alt="..." />
                         <div className="card-body">
@@ -26,7 +26,7 @@ const Skill = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col">
+                <div className="col" data-aos="zoom-in">
                     <div className="card">
                         <img src={img2} className="card-img-top p-2" alt="..." />
                         <div className="card-body">
@@ -34,7 +34,7 @@ const Skill = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col">
+                <div className="col" data-aos="zoom-in">
                     <div className="card">
                         <img src={img3} className="card-img-top p-2" alt="..." />
                         <div className="card-body">
@@ -42,7 +42,7 @@ const Skill = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col">
+                <div className="col" data-aos="zoom-in">
                     <div className="card">
                         <img src={img4} className="card-img-top img-fluid p-2" alt="..." />
                         <div className="card-body">
@@ -50,7 +50,7 @@ const Skill = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col">
+                <div className="col" data-aos="zoom-in">
                     <div className="card">
                         <img src={img5} className="card-img-top img-fluid p-2" alt="..." />
                         <div className="card-body">
@@ -58,7 +58,7 @@ const Skill = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col">
+                <div className="col" data-aos="zoom-in">
                     <div className="card">
                         <img src={img6} className="card-img-top img-fluid p-2" alt="..." />
                         <div className="card-body">
@@ -66,7 +66,7 @@ const Skill = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col">
+                <div className="col" data-aos="zoom-in">
                     <div className="card">
                         <img src={img7} className="card-img-top img-fluid p-2" alt="..." />
                         <div className="card-body">
@@ -74,7 +74,7 @@ const Skill = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col">
+                <div className="col" data-aos="zoom-in">
                     <div className="card">
                         <img src={img8} className="card-img-top img-fluid p-2" alt="..." />
                         <div className="card-body">
@@ -82,7 +82,7 @@ const Skill = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col">
+                <div className="col" data-aos="zoom-in">
                     <div className="card">
                         <img src={img9} className="card-img-top img-fluid p-2" alt="..." />
                         <div className="card-body">
@@ -90,7 +90,7 @@ const Skill = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col">
+                <div className="col" data-aos="zoom-in">
                     <div className="card">
                         <img src={img10} className="card-img-top img-fluid p-2" alt="..." />
                         <div className="card-body">
