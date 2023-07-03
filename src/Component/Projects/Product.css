@@ -2,12 +2,11 @@
     width: 580px;
     height: 400px;
     background: #000;
-    background-position: top;
-    transition: ease-in-out 8s;
+    /* transition: ease-in-out 8s; */
 }
 
-.card .scroll .scroll-1 {
-    background: url('../../assets/Image/project-2\ \(3\).png');
+.card .scroll .scroll1 {
+    background: url(../../assets/IMG-20230131-WA0002.jpg);
     background-size: cover;
 
 }

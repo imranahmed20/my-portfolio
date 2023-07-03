@@ -107,9 +107,11 @@ const Projects = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col">
+                <div className="col content">
                     <div className="card" data-aos="flip-left">
-                        <img className='p-2' src={project3} alt="" />
+                        <div className=''>
+                            <img src={project3} className="card-img-top p-2" alt="..." />
+                        </div>
                         <div className="card-body mb-3">
                             <h4 className="card-title">Doll Marketplace</h4>
                             <div className='d-flex justify-content-between align-items-center mt-3'>

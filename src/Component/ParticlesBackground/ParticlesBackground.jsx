@@ -2,12 +2,8 @@ import React from 'react';
 import Particles from 'react-particles';
 import particlesConfig from '../config/Particles-config';
 
-const ParticlesBackground = () => {
+export default function ParticlesBackground() {
     return (
-        <div>
-            <Particles></Particles>
-        </div>
-    );
-};
-
-export default ParticlesBackground;
+        <Particles props={particlesConfig}></Particles>
+    )
+}
