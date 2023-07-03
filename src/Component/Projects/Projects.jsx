@@ -12,9 +12,9 @@ const Projects = () => {
                 <div className="col" >
                     <div className="card" data-aos="flip-left">
                         <img src={project1} className="card-img-top p-2" alt="..." />
-                        <div className="card-body">
+                        <div className="card-body mb-3">
                             <h4 className="card-title">Chef Recipe</h4>
-                            <div className='d-flex justify-content-between align-items-center'>
+                            <div className='d-flex justify-content-between align-items-center mt-3'>
                                 <div className='d-flex justify-content-between align-items-center mt-3'>
                                     <a className='fs-4 me-3 text-black' href="https://github.com/imranahmed20/chef-recipe-client" target="_blank" title='Github Client'><FaGithub></FaGithub></a>
                                     <a className='fs-4 me-3 text-black' href="https://github.com/imranahmed20/chef-recipe-server" target="_blank" title='Github Server' ><FaServer></FaServer></a>
@@ -23,7 +23,7 @@ const Projects = () => {
                                 <div className='mt-3'>
 
                                     {/* <!-- Button trigger modal --> */}
-                                    <button type="button" className="btn btn-success fw-semibold fs-6" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                    <button type="button" className="btn btn-success fw-semibold fs-5" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                         View Details
                                     </button>
 
@@ -62,9 +62,9 @@ const Projects = () => {
                 <div className="col">
                     <div className="card" data-aos="flip-left">
                         <img src={project2} className="card-img-top p-2" alt="..." />
-                        <div className="card-body">
+                        <div className="card-body mb-3">
                             <h4 className="card-title">Sports Academies</h4>
-                            <div className='d-flex justify-content-between align-items-center'>
+                            <div className='d-flex justify-content-between align-items-center mt-3'>
                                 <div className='d-flex justify-content-between align-items-center mt-3'>
                                     <a className='fs-4 me-3 text-black' href="https://github.com/imranahmed20/summer-camp-client" target="_blank" title='Github Client'><FaGithub></FaGithub></a>
                                     <a className='fs-4 me-3 text-black' href="https://github.com/imranahmed20/summer-camp-server" target="_blank" title='Github Server' ><FaServer></FaServer></a>
@@ -73,7 +73,7 @@ const Projects = () => {
                                 <div className='mt-3'>
 
                                     {/* <!-- Button trigger modal --> */}
-                                    <button type="button" className="btn btn-success fw-semibold fs-6" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+                                    <button type="button" className="btn btn-success fw-semibold fs-5" data-bs-toggle="modal" data-bs-target="#exampleModal1">
                                         View Details
                                     </button>
                                 </div>
@@ -109,9 +109,9 @@ const Projects = () => {
                 <div className="col">
                     <div className="card" data-aos="flip-left">
                         <img src={project3} className="card-img-top p-2" alt="..." />
-                        <div className="card-body">
+                        <div className="card-body mb-3">
                             <h4 className="card-title">Doll Marketplace</h4>
-                            <div className='d-flex justify-content-between align-items-center'>
+                            <div className='d-flex justify-content-between align-items-center mt-3'>
                                 <div className='d-flex justify-content-between align-items-center mt-3'>
                                     <a className='fs-4 me-3 text-black' href="https://github.com/imranahmed20/toy-doll-client" target="_blank" title='Github Client'><FaGithub></FaGithub></a>
                                     <a className='fs-4 me-3 text-black' href="https://github.com/imranahmed20/toy-doll-server" target="_blank" title='Github Server' ><FaServer></FaServer></a>
@@ -120,7 +120,7 @@ const Projects = () => {
                                 <div className='mt-3'>
 
                                     {/* <!-- Button trigger modal --> */}
-                                    <button type="button" className="btn btn-success fw-semibold fs-6" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                                    <button type="button" className="btn btn-success fw-semibold fs-5" data-bs-toggle="modal" data-bs-target="#exampleModal2">
                                         View Details
                                     </button>
 

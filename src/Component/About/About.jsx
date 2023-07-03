@@ -1,5 +1,6 @@
 import React from 'react';
 import img from '../../../src/assets/IMG-20230131-WA0002.jpg'
+import { FaArrowRight } from 'react-icons/fa';
 
 const About = () => {
     return (
@@ -15,8 +16,8 @@ const About = () => {
                         <br />
                         I am excited to embark on new projects and collaborate with like-minded individuals. Feel free to browse through my portfolio and get in touch with me if you have any inquiries or if you'd like to discuss potential opportunities.</p>
                     {/* <!-- Button trigger modal --> */}
-                    <button type="button" className="btn btn-success fw-semibold fs-6" data-bs-toggle="modal" data-bs-target="#exampleModal4">
-                        Read More
+                    <button type="button" className="btn btn-danger fw-semibold fs-5" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+                        See more <FaArrowRight></FaArrowRight>
                     </button>
 
                     {/* <!-- Modal --> */}
