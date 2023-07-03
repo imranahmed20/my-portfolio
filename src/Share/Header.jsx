@@ -10,31 +10,28 @@ import logo from '../../src/assets/Image/logo-2.png'
 
 const Header = () => {
     return (
-        <div className='container'>
-            <Navbar expand="lg" className="bg-body-tertiary">
-                <Container fluid>
-                    <Navbar.Brand className='fs-3 fw-bold' href="#"><img className='rounded-circle' src={logo} alt="" /> Imran Ahmed</Navbar.Brand>
-                    <Navbar.Toggle aria-controls="navbarScroll" />
-                    <Navbar.Collapse id="navbarScroll">
-                        <Nav
-                            className="mx-auto my-2 my-lg-0"
-                            style={{ maxHeight: '100px' }}
-                            navbarScroll
-                        >
-                            <Nav.Link className='fw-semibold me-3' href="#">HOME</Nav.Link>
-                            <Nav.Link className='fw-semibold  me-3' href="#about">ABOUT</Nav.Link>
-                            <Nav.Link className='fw-semibold me-3' href="#skill">SKILL</Nav.Link>
-                            <Nav.Link className='fw-semibold me-3' href="#projects">PROJECTS</Nav.Link>
-                            <Nav.Link className='fw-semibold' href="#contact">CONTACT </Nav.Link>
-                        </Nav>
-                        <Form className="d-flex">
-                            <Button className='fw-semibold' variant="danger">Hire Me</Button>
-                        </Form>
-                    </Navbar.Collapse>
-                </Container>
-            </Navbar>
-
-        </div>
+        <Navbar expand="lg" className="bg-body-tertiary sticky-top mb-5">
+            <Container>
+                <Navbar.Brand className='fs-3 fw-bold'><img className='rounded-circle' src={logo} alt="" /> Imran Ahmed</Navbar.Brand>
+                <Navbar.Toggle aria-controls="navbarScroll" />
+                <Navbar.Collapse id="navbarScroll">
+                    <Nav
+                        className="mx-auto my-2 my-lg-0"
+                        style={{ maxHeight: '100px' }}
+                        navbarScroll
+                    >
+                        <Nav.Link className='fw-semibold me-3' href='/#'>HOME</Nav.Link>
+                        <Nav.Link className='fw-semibold  me-3' href="/#about">ABOUT</Nav.Link>
+                        <Nav.Link className='fw-semibold me-3' href="/#skill">SKILL</Nav.Link>
+                        <Nav.Link className='fw-semibold me-3' href="/#projects">PROJECTS</Nav.Link>
+                        <Nav.Link className='fw-semibold' href="/#contact">CONTACT </Nav.Link>
+                    </Nav>
+                    <Form >
+                        <Button className='fw-semibold' variant="danger" href='/#contact' >Hire Me</Button>
+                    </Form>
+                </Navbar.Collapse>
+            </Container>
+        </Navbar>
     );
 };
 

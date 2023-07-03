@@ -1,12 +1,12 @@
 import React from 'react';
-import img from '../../../src/assets/IMG-20230131-WA0002.jpg'
+import img from '../../../src/assets/Image/357788537_2237658816426893_318993846120352413_n.png'
 // import Button from 'react-bootstrap/Button';
 import resume from '../../assets/Image/Imran Ahmed Resume.pdf'
 import { FaDownload } from 'react-icons/fa';
 
 const Banner = () => {
     return (
-        <div className='d-md-flex justify-content-between align-items-center mt-5 container'>
+        <div className='d-md-flex justify-content-between align-items-center mt-5 container' >
             <div
             >
                 <h1>Hi! I'm <br /><span className='text-success fw-bold'>Imran Ahmed</span></h1>

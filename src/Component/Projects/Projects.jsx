@@ -3,6 +3,7 @@ import project1 from '../../assets/Image/project-2 (1).png'
 import project2 from '../../assets/Image/project-2 (2).png'
 import project3 from '../../assets/Image/project-2 (3).png'
 import { FaGithub, FaServer, FaExternalLinkAlt } from 'react-icons/fa';
+import './Product.css'
 
 const Projects = () => {
     return (
@@ -108,7 +109,7 @@ const Projects = () => {
                 </div>
                 <div className="col">
                     <div className="card" data-aos="flip-left">
-                        <img src={project3} className="card-img-top p-2" alt="..." />
+                        <img className='p-2' src={project3} alt="" />
                         <div className="card-body mb-3">
                             <h4 className="card-title">Doll Marketplace</h4>
                             <div className='d-flex justify-content-between align-items-center mt-3'>
@@ -128,6 +129,7 @@ const Projects = () => {
                                 </div>
                             </div>
                         </div>
+
                     </div>
                     {/* <!-- Modal --> */}
                     <div className="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">

@@ -1,5 +1,5 @@
 import React from 'react';
-import img1 from '../../assets/Image/img-12.jfif'
+import img1 from '../../assets/Image/img-12.png'
 import img2 from '../../assets/Image/img-13.png'
 import img3 from '../../assets/Image/img-11.png'
 import img4 from '../../assets/Image/img-4.jfif'
@@ -22,7 +22,7 @@ const Skill = () => {
                     <div className="card">
                         <img src={img1} className="card-img-top p-2" alt="..." />
                         <div className="card-body">
-                            <h5 className="card-title text-center fs-3 fw-bold">HTML</h5>
+                            <h5 className="card-title text-center fs-4 fw-bold">HTML</h5>
                         </div>
                     </div>
                 </div>
@@ -30,7 +30,7 @@ const Skill = () => {
                     <div className="card">
                         <img src={img2} className="card-img-top p-2" alt="..." />
                         <div className="card-body">
-                            <h5 className="card-title text-center fs-3 fw-bold">CSS</h5>
+                            <h5 className="card-title text-center fs-4 fw-bold">CSS</h5>
                         </div>
                     </div>
                 </div>
@@ -38,7 +38,7 @@ const Skill = () => {
                     <div className="card">
                         <img src={img3} className="card-img-top p-2" alt="..." />
                         <div className="card-body">
-                            <h5 className="card-title text-center fs-3 fw-bold">JavaScript</h5>
+                            <h5 className="card-title text-center fs-4 fw-bold">JavaScript</h5>
                         </div>
                     </div>
                 </div>
@@ -46,7 +46,7 @@ const Skill = () => {
                     <div className="card">
                         <img src={img4} className="card-img-top img-fluid p-2" alt="..." />
                         <div className="card-body">
-                            <h5 className="card-title text-center fs-3 fw-bold">Bootstrap</h5>
+                            <h5 className="card-title text-center fs-4 fw-bold">Bootstrap</h5>
                         </div>
                     </div>
                 </div>
@@ -54,7 +54,7 @@ const Skill = () => {
                     <div className="card">
                         <img src={img5} className="card-img-top img-fluid p-2" alt="..." />
                         <div className="card-body">
-                            <h5 className="card-title text-center fs-3 fw-bold">Twilwind</h5>
+                            <h5 className="card-title text-center fs-4 fw-bold">Twilwind</h5>
                         </div>
                     </div>
                 </div>
@@ -62,7 +62,7 @@ const Skill = () => {
                     <div className="card">
                         <img src={img6} className="card-img-top img-fluid p-2" alt="..." />
                         <div className="card-body">
-                            <h5 className="card-title text-center fs-3 fw-bold">Firebase</h5>
+                            <h5 className="card-title text-center fs-4 fw-bold">Firebase</h5>
                         </div>
                     </div>
                 </div>
@@ -70,7 +70,7 @@ const Skill = () => {
                     <div className="card">
                         <img src={img7} className="card-img-top img-fluid p-2" alt="..." />
                         <div className="card-body">
-                            <h5 className="card-title text-center fs-3 fw-bold">Node JS</h5>
+                            <h5 className="card-title text-center fs-4 fw-bold">Node JS</h5>
                         </div>
                     </div>
                 </div>
@@ -78,7 +78,7 @@ const Skill = () => {
                     <div className="card">
                         <img src={img8} className="card-img-top img-fluid p-2" alt="..." />
                         <div className="card-body">
-                            <h5 className="card-title text-center fs-3 fw-bold">React</h5>
+                            <h5 className="card-title text-center fs-4 fw-bold">React</h5>
                         </div>
                     </div>
                 </div>
@@ -86,7 +86,7 @@ const Skill = () => {
                     <div className="card">
                         <img src={img9} className="card-img-top img-fluid p-2" alt="..." />
                         <div className="card-body">
-                            <h5 className="card-title text-center fs-3 fw-bold">MongoDB</h5>
+                            <h5 className="card-title text-center fs-4 fw-bold">MongoDB</h5>
                         </div>
                     </div>
                 </div>
@@ -94,7 +94,7 @@ const Skill = () => {
                     <div className="card">
                         <img src={img10} className="card-img-top img-fluid p-2" alt="..." />
                         <div className="card-body">
-                            <h5 className="card-title text-center fs-3 fw-bold">Express</h5>
+                            <h5 className="card-title text-center fs-4 fw-bold">Express</h5>
                         </div>
                     </div>
                 </div>
