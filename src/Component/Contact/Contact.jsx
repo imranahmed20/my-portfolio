@@ -4,6 +4,17 @@ import emailjs from '@emailjs/browser';
 
 const Contact = () => {
     const form = useRef()
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs.sendForm('service_jw96y9q', 'template_r6n0r0r', form.current, 'e0F8Nr0F2eQ1OAUBp')
+            .then((result) => {
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text);
+            });
+        e.target.reset()
+    };
     return (
         <div className='banner container' id="contact" data-aos="fade-up"
             data-aos-duration="1500">
@@ -24,7 +35,7 @@ const Contact = () => {
                 </div>
                 <div className='col'>
                     <h2 className='fw-bold mb-2'>Write a message:</h2>
-                    <form ref={form}>
+                    <form ref={form} onSubmit={sendEmail}>
                         <div className="mb-3">
                             <label className="form-label">Your Name:</label>
                             <input type="text" className="form-control" id="exampleFormControlInput1" placeholder="Your Name" required />
