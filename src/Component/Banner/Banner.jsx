@@ -14,7 +14,7 @@ const Banner = () => {
                 <p className='fs-5 fw-semibold mb-3'>Welcome to my portfolio! I'm a passionate MERN stack web developer with expertise in HTML, CSS, JavaScript, React, Express.js, Node.js, and MongoDB. With a strong foundation in front-end development, I strive to create captivating user interfaces and seamless user experiences. I enjoy turning ideas into functional and visually appealing websites and web applications.</p>
                 <a href={resume} target="_blank" download="Imran Ahmed Resume" rel="noreferrer"> <button className='btn btn-danger fw-semibold fs-5'>DownLoad Resume <FaDownload></FaDownload></button></a>
             </div>
-            <div className='ms-5 mt-3'>
+            <div className='ms-3 mt-4'>
                 <img className='rounded-circle ' style={{ width: 500, height: 450 }} src={img} alt="" />
             </div>
         </div >
