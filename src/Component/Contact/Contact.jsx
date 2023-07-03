@@ -27,9 +27,8 @@ const Contact = () => {
                     <h5 className='mb-4'><FaLocationArrow></FaLocationArrow> Haragach,Rangpur,Bangladesh</h5>
                     <h2 className='fw-bold mt-5 mb-3'>Social Networks :</h2>
                     <div>
-                        <a className='fs-1 text-dark me-4' href="https://www.facebook.com/mdimranahmed.imran.568" target="_blank"><FaFacebook></FaFacebook></a>
-                        <a className='fs-1 text-dark me-4' href="https://www.linkedin.com/in/md-imran-ahmed-07723b280/" target="_blank"><FaLinkedin></FaLinkedin></a>
-                        <a className='fs-1 text-dark me-4' href="01724641694" target="_blank"><FaPhoneSquareAlt></FaPhoneSquareAlt></a>
+                        <a className='fs-1 text-dark me-5 ms-3' href="https://www.facebook.com/mdimranahmed.imran.568" target="_blank"><FaFacebook></FaFacebook></a>
+                        <a className='fs-1 text-dark me-5' href="https://www.linkedin.com/in/md-imran-ahmed-07723b280/" target="_blank"><FaLinkedin></FaLinkedin></a>
                         <a className='fs-1 text-dark me-4' href="https://github.com/imranahmed20" target="_blank"><FaGithub></FaGithub></a>
                     </div>
                 </div>
