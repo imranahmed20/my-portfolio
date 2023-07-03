@@ -1,7 +1,9 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import { FaFacebook, FaGithub, FaLinkedin, FaLocationArrow, FaMailBulk, FaPhoneSquareAlt } from 'react-icons/fa';
+import emailjs from '@emailjs/browser';
 
 const Contact = () => {
+    const form = useRef()
     return (
         <div className='banner container' id="contact" data-aos="fade-up"
             data-aos-duration="1500">
@@ -22,20 +24,21 @@ const Contact = () => {
                 </div>
                 <div className='col'>
                     <h2 className='fw-bold mb-2'>Write a message:</h2>
-                    <div className="mb-3">
-                        <label className="form-label">Your Name:</label>
-                        <input type="text" className="form-control" id="exampleFormControlInput1" placeholder="Your Name" required />
-                    </div>
-                    <div className="mb-3">
-                        <label className="form-label">Email address</label>
-                        <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="Your Email" required />
-                    </div>
-                    <div className="mb-3">
-                        <label className="form-label">Example textarea</label>
-                        <textarea className="form-control" id="exampleFormControlTextarea1" rows="3" placeholder='Write message' required></textarea>
-
-                    </div>
-                    <button className='btn btn-danger rounded fs-5 fw-semibold'>Send Message</button>
+                    <form ref={form}>
+                        <div className="mb-3">
+                            <label className="form-label">Your Name:</label>
+                            <input type="text" className="form-control" id="exampleFormControlInput1" placeholder="Your Name" required />
+                        </div>
+                        <div className="mb-3">
+                            <label className="form-label">Email address</label>
+                            <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="Your Email" required />
+                        </div>
+                        <div className="mb-3">
+                            <label className="form-label">Example textarea</label>
+                            <textarea className="form-control" id="exampleFormControlTextarea1" rows="3" placeholder='Write message' required></textarea>
+                        </div>
+                        <input type="submit" className='btn btn-danger rounded fs-5 fw-semibold' value="Send Message" />
+                    </form>
                 </div>
             </div>
         </div>
